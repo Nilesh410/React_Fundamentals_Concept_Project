@@ -1,0 +1,20 @@
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap:100px;
+    padding: 100px;
+    margin: 0 50px;
+}
+
+li{
+    font-size:x-large;
+}
+
+li a{
+    text-decoration: none;
+}
+
+li a:focus{
+    outline:1px solid black
+}
